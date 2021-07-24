@@ -9,6 +9,7 @@ import { SeparatorComponent } from './components/pages/frontpage/separator/separ
 import { CreditcardsComponent } from './components/pages/frontpage/creditcards/creditcards.component';
 import { FooterComponent } from './components/pages/frontpage/footer/footer.component';
 import { FrontpageComponent } from './components/pages/frontpage/frontpage.component';
+import { Fpsection2Component } from './components/pages/frontpage/fpsection2/fpsection2.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { FrontpageComponent } from './components/pages/frontpage/frontpage.compo
     SeparatorComponent,
     CreditcardsComponent,
     FooterComponent,
-    FrontpageComponent
+    FrontpageComponent,
+    Fpsection2Component
   ],
   imports: [
     BrowserModule,

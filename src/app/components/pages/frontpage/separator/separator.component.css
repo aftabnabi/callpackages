@@ -1,6 +1,41 @@
 .blue-line {
   height: 10px;
   border-bottom: #2780ba solid 5px;
-  width: 900px;
+}
+
+@media screen and (max-width: 480px) {
+  .blue-line {
+    width: 900px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .blue-line {
+    width: 900px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .blue-line {
+    width: 768px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .blue-line {
+    width: 1024px;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .blue-line {
+    width: 1025px;
+  }
+}
+
+@media screen and (min-width: 1367px) {
+  .blue-line {
+    width: 1025px;
+  }
 }
 /*# sourceMappingURL=separator.component.css.map */
